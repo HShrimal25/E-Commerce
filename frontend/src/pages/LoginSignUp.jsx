@@ -19,7 +19,7 @@ const LoginSignUp = () => {
     console.log("login Function Executed", formData);
     let responseData;
 
-    await fetch('http://localhost:4000/login',{
+    await fetch('https://e-commerce-guln.onrender.com/login',{
      method:'POST',
      headers:{
         Accept:'application/form-data',
@@ -42,7 +42,7 @@ const LoginSignUp = () => {
      console.log("Signup Function Executed", formData);
      let responseData;
 
-     await fetch('http://localhost:4000/signup',{
+     await fetch('https://e-commerce-guln.onrender.com/signup',{
       method:'POST',
       headers:{
          Accept:'application/form-data',
